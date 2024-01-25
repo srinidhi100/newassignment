@@ -1,0 +1,613 @@
+1. Fix the bugs in below snippet
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+CORRECTED CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        guvi
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+2.Fix the bugs in below snippet
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+CORRECTED CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        guvi
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+3.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .error {
+            color: red;
+            margin-top: -10px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <div class="error" id="errorMessage"></div>
+
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
+
+<script>
+    function submitForm() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var subject = document.getElementById('subject').value;
+        var message = document.getElementById('message').value;
+        var errorMessage = document.getElementById('errorMessage');
+
+        if (name === '' || email === '' || subject === '' || message === '') {
+            errorMessage.textContent = 'All fields are required!';
+        } else {
+            errorMessage.textContent = '';
+            // Here, you can perform additional actions, such as sending the form data to a server.
+            alert('Form submitted successfully!');
+        }
+    }
+</script>
+
+</body>
+</html>
+
+4.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming and Database Technologies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Programming Languages</h2>
+<ul>
+    <li>JavaScript</li>
+    <li>Angular</li>
+    <li>React</li>
+    <li>Vue.js</li>
+    <li>Python</li>
+    <li>Django Framework</li>
+    <li>Flask Framework</li>
+    <li>Java</li>
+    <li>Spring</li>
+    <li>Maven</li>
+    <li>Hibernate</li>
+</ul>
+
+<h2>Database Technologies</h2>
+<ul>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Cassandra</li>
+</ul>
+
+</body>
+</html>
+
+5.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Google in a New Tab</title>
+</head>
+<body>
+
+<a href="https://google.com" target="_blank">Open Google in New Tab</a>
+
+</body>
+</html>
+
+6.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"] {
+            margin-right: 8px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .error {
+            color: red;
+            margin-top: -10px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="employeeType">Employee Type:</label>
+    <div>
+        <input type="radio" id="salaried" name="employeeType" value="Salaried" required>
+        <label for="salaried">Salaried</label>
+
+        <input type="radio" id="ownBusiness" name="employeeType" value="Own Business" required>
+        <label for="ownBusiness">Own Business</label>
+    </div>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <div class="error" id="errorMessage"></div>
+
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
+
+<script>
+    function submitForm() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var employeeType = document.querySelector('input[name="employeeType"]:checked');
+        var subject = document.getElementById('subject').value;
+        var message = document.getElementById('message').value;
+        var errorMessage = document.getElementById('errorMessage');
+
+        if (name === '' || email === '' || !employeeType || subject === '' || message === '') {
+            errorMessage.textContent = 'All fields are required!';
+        } else {
+            errorMessage.textContent = '';
+            // Here, you can perform additional actions, such as sending the form data to a server.
+            alert('Form submitted successfully!');
+        }
+    }
+</script>
+
+</body>
+</html>
+7.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <label for="cardHolder">Card Holder:</label>
+    <input type="text" id="cardHolder" name="cardHolder" required>
+
+    <label for="cardNumber">Card Number:</label>
+    <input type="text" id="cardNumber" name="cardNumber" required>
+
+    <label for="expiryDate">Expiry Date:</label>
+    <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv" required>
+
+    <label for="cardType">Card Type:</label>
+    <select id="cardType" name="cardType" required>
+        <option value="visa">Visa</option>
+        <option value="mastercard">MasterCard</option>
+        <option value="amex">American Express</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
+8.
+
+<table>
+    <tr>
+    <td> <img src="folder.jfif" width=”280″> </td>
+    <td> <img src="flower.jp" width=”100″> </td>
+    </tr>
+    <tr>
+    <td> <img src="tea.jfif" width=”280″ > </td>
+    <td> <img src="glass.jfif" width=”280″> </td>
+    </tr>
+    </table>
+9.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Values for Form Elements</title>
+</head>
+<body>
+
+<form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" value="defaultUsername">
+
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" value="user@example.com">
+
+    <br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" value="defaultPassword">
+
+    <br>
+
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate" value="2022-01-01">
+
+    <br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+
+    <br>
+
+    <label for="newsletter">Subscribe to Newsletter:</label>
+    <input type="checkbox" id="newsletter" name="newsletter" checked>
+
+    <br>
+
+    <label for="comment">Comment:</label>
+    <textarea id="comment" name="comment">Default comment text</textarea>
+
+    <br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
+10.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlight Text</title>
+</head>
+<body>
+
+<p>
+    HTML &amp; CSS is <mark>awesome</mark>.
+</p>
+
+</body>
+</html>
+
+11.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Types of Input Elements</title>
+</head>
+<body>
+
+<h2>Various Input Elements</h2>
+
+<form>
+    <label for="text">Text Input:</label>
+    <input type="text" id="text" name="text">
+
+    <br>
+
+    <label for="password">Password Input:</label>
+    <input type="password" id="password" name="password">
+
+    <br>
+
+    <label>Radio Buttons:</label>
+    <input type="radio" id="radio1" name="radio" value="option1">
+    <label for="radio1">Option 1</label>
+
+    <input type="radio" id="radio2" name="radio" value="option2">
+    <label for="radio2">Option 2</label>
+
+    <br>
+
+    <label>Checkboxes:</label>
+    <input type="checkbox" id="checkbox1" name="checkbox1" value="check1">
+    <label for="checkbox1">Check 1</label>
+
+    <input type="checkbox" id="checkbox2" name="checkbox2" value="check2">
+    <label for="checkbox2">Check 2</label>
+
+    <br>
+
+    <label for="dropdown">Select Dropdown:</label>
+    <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+    </select>
+
+    <br>
+
+    <label for="textarea">Textarea:</label>
+    <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+
+    <br>
+
+    <label for="file">File Input:</label>
+    <input type="file" id="file" name="file">
+
+    <br>
+
+    <label for="date">Date Input:</label>
+    <input type="date" id="date" name="date">
+
+    <br>
+
+    <label for="color">Color Input:</label>
+    <input type="color" id="color" name="color">
+
+    <br>
+
+    <label for="range">Range Input:</label>
+    <input type="range" id="range" name="range" min="0" max="100">
+
+    <br>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
+
+
